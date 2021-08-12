@@ -17,3 +17,5 @@ Briefly, the following steps are taken in order to achieve the same:
 The system of equation is then solved using Gauss elimination algorithm (refer method gauss() ) to obtain the current values. 
 
 NOTE: The circuit element should only comprise of resistor and battery/emf. The program is not designed to handle capacitor, inductor, voltage source, current source or any non-linear element (like diode, transistor, etc.)
+
+REFRENCES: https://core.ac.uk/download/pdf/53745212.pdf
