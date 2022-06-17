@@ -170,7 +170,7 @@ int main() {
 		adj_matrix[node_2][node_1] = 1;		
 	}	
 
-	if(nodes > 2 && isCktOpen(adj_matrix, nodes)) { //Checks if there is any node having degree < 2
+	if(isCktOpen(adj_matrix, nodes)) { //Checks if there is any node having degree < 2
 		cout << "\nERROR: Circuit is open\n";
 		return 0;
 	}
