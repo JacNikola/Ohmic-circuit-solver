@@ -178,7 +178,7 @@ int main() {
 	vector<vector<int>> adj_matrix_2 = adj_matrix;
 
 	//Resistance information
-	double resistors;
+	double resistors; // why double?
 	cout << "\nENTER THE NUMBER OF RESISTORS : ";
 	cin >> resistors;
 
@@ -212,7 +212,7 @@ int main() {
 	}	
 
 	//EMF information
-	double emfs;
+	double emfs; // why double?
 	cout << "\nENTER THE NUMBER OF EMFS : ";
 	cin >> emfs;
 
