@@ -178,13 +178,14 @@ int main() {
 	vector<vector<int>> adj_matrix_2 = adj_matrix;
 
 	//Resistance information
-	double resistors; // why double?
+	int resistors;
 	cout << "\nENTER THE NUMBER OF RESISTORS : ";
 	cin >> resistors;
 
 	if(resistors) cout << "***ENTER THE RESISTORS DATA***";
 	for(int i = 1; i <= resistors; i++) {
-		int node_1, node_2, resistance; 
+		int node_1, node_2;
+		double resistance; 
 		cout << "\nResistor " << i << " :\n";
 		cout << "Node_1 = ";
 		cin >> node_1;
@@ -212,13 +213,14 @@ int main() {
 	}	
 
 	//EMF information
-	double emfs; // why double?
+	int emfs; // why double?
 	cout << "\nENTER THE NUMBER OF EMFS : ";
 	cin >> emfs;
 
 	if(emfs) cout << "***ENTER THE EMFS DATA***";
 	for(int i = 1; i <= emfs; i++) {
-		int node_1, node_2, emf_val; 
+		int node_1, node_2;
+		double emf_val; 
 		cout << "\nEMF " << i << " :\n";
 		cout << "Node_1(Higher Polarity terminal) = ";
 		cin >> node_1;
