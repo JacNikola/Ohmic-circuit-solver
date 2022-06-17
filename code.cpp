@@ -315,9 +315,6 @@ int main() {
 			aux_map[{loop_string[i+1], loop_string[i]}].push_back(-1 * (loop_num+1));				
 			matrix[loop_num][count_loops] += emf_matrix[loop_string[i]][loop_string[i+1]];
 		}
-		matrix[loop_num][count_loops] += emf_matrix[loop_string[loop_string.size()-1]][loop_string[0]];
-		aux_map[{loop_string[loop_string.size()-1], loop_string[0]}].push_back(loop_num+1);
-		aux_map[{loop_string[0], loop_string[loop_string.size()-1]}].push_back(-1*(loop_num+1));
 
 		loop_num++;
 	}
